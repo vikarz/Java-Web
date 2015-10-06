@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Aplikasi Inventori</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="/appinventori/InsertBrg" method="POST">
+            <table border="0">
+                <thead>
+                    <tr>
+                        <th>Kode Barang</th>
+                        <th>: <input type="text" name="kodeBrg" value="Kode Barang" /></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nama Barang</td>
+                        <td>: <input type="text" name="namaBrg" value="Nama Barang" /></td>
+                    </tr>
+                    <tr>
+                        <td>Harga Barang</td>
+                        <td>: <input type="number" name="hargaBrg" value="1234" /></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Simpan" name="Submit" /></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Barang">Master Barang</a></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </form>
+    </body>
+</html>
